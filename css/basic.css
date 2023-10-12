@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  font-family: "맑은 고딕", Verdana, Geneva, Tahoma, sans-serif;
+  background: #d2d6cd;
+  padding: 50px;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+section {
+  max-width: 500px;
+  min-width: 360px;
+  margin: auto;
+  background: #F9F3CC;
+  border-radius: 16px;
+}
+section header {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #D7E5CA;
+  color: rgb(105, 105, 105);
+  border-radius: 6px 6px 0 0;
+}
+section input {
+  width: 95%;
+  margin-left: 10px;
+  height: 40px;
+  padding: 0 32px;
+  border: 0;
+  outline: 0;
+  border-radius: 100px;
+}
+section input::-moz-placeholder {
+  color: #ccc;
+}
+section input::placeholder {
+  color: #ccc;
+}
+section footer {
+  background: #D7E5CA;
+  text-align: center;
+  border-radius: 0 0 6px 6px;
+  margin-top: 10px;
+}
+section footer .footer_addBtn {
+  width: 48px;
+  height: 48px;
+  font-size: 28px;
+  color: white;
+  transition: 0.3s ease-in;
+}
+section footer .footer_addBtn:hover {
+  color: rgb(209, 209, 209);
+  transform: scale(1.1);
+}
+
+ul.items {
+  height: 400px;
+  overflow-y: auto;
+  padding-bottom: 30px;
+}
+ul.items .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 32px;
+}
+ul.items .item .item_input {
+  width: 12.5px;
+  height: 12.5px;
+  position: relative;
+  top: 1px;
+}
+ul.items .item .item_delBtn {
+  font-size: 14px;
+  color: #797474;
+  transition: 0.3s ease-in;
+}
+ul.items .item .item_delBtn .item_delBtn:hover {
+  color: #f15151;
+  transform: scale(1.1);
+}
+ul.items .item_divider {
+  width: 90%;
+  height: 1px;
+  background: #c5b5b5;
+  margin: auto;
+}/*# sourceMappingURL=basic.css.map */
